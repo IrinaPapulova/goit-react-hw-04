@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .input {
+    margin-right: 10px;
+    width: 250px;
+    height: 20px;
+    border: 2px solid grey;
+    border-radius: 4px;
+  }
+  
+  .input::placeholder {
+    font-size: 12px;
+    color: rgb(18, 22, 18);
+  }
+  
+  .btn {
+    cursor: pointer;
+    border-radius: 4px;
+    border: 2px solid rgb(22, 22, 22);
+    background-color: rgb(128, 134, 216);
+    color: black;
+  }
+
+  .btn.focus {
+    background-color: rgb(216, 160, 128);
+  }
